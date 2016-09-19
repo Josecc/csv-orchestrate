@@ -1,0 +1,25 @@
+{
+  "name": "csv-orchestrate",
+  "version": "1.0.0",
+  "description": "Uploads CSV data to orchestrate database",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Josecc/csv-orchestrate.git"
+  },
+  "author": "Jose Canahui",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Josecc/csv-orchestrate/issues"
+  },
+  "homepage": "https://github.com/Josecc/csv-orchestrate#readme",
+  "dependencies": {
+    "async": "^2.0.1",
+    "dotenv": "^2.0.0",
+    "fast-csv": "^2.1.0",
+    "orchestrate": "^0.8.0"
+  }
+}
